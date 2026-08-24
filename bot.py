@@ -4,7 +4,7 @@ import json
 import urllib.request
 import urllib.parse
 
- "TELEGRAM_BOT_TOKEN
+ "TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 if not TOKEN:
     raise Exception("BOT_TOKEN is not set")
